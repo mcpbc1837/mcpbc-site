@@ -490,14 +490,21 @@ footer {
     }
 
     .hero-text {
-        padding: 20px 18px;
-    }
+    padding: 18px 16px;
+}
 
-    .hero-text h2 {
-        font-size: 1.55rem;
-        line-height: 1.25;
-        margin-bottom: 8px;
-    }
+.hero-text h2 {
+    font-size: 1.35rem;
+    line-height: 1.25;
+    margin: 0 0 6px;
+    white-space: normal;
+}
+
+.hero-text p {
+    font-size: 0.9rem;
+    line-height: 1.45;
+    margin: 0;
+}
 
     .hero-text p {
         font-size: 0.95rem;
