@@ -458,4 +458,115 @@ footer {
         margin: 0 auto;
     }
 }
-```
+/* SMALL PHONE ADJUSTMENTS */
+
+@media (max-width: 600px) {
+
+    .top-header {
+        padding: 26px 16px 20px;
+    }
+
+    .header-content h1 {
+        font-size: 1.8rem;
+        line-height: 1.25;
+    }
+
+    .container {
+        padding: 32px 16px;
+    }
+
+    nav {
+        padding: 10px 8px;
+    }
+
+    nav a {
+        margin: 6px 8px;
+        font-size: 0.95rem;
+    }
+
+    .hero-section img {
+        height: 280px;
+        object-fit: cover;
+    }
+
+    .hero-text {
+        padding: 20px 18px;
+    }
+
+    .hero-text h2 {
+        font-size: 1.55rem;
+        line-height: 1.25;
+        margin-bottom: 8px;
+    }
+
+    .hero-text p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+
+    .welcome-card,
+    .feature-panel,
+    .bible-section {
+        padding: 22px;
+        margin-bottom: 26px;
+    }
+
+    .welcome-card h2 {
+        font-size: 1.65rem;
+    }
+
+    .feature-text h3 {
+        font-size: 1.45rem;
+    }
+
+    .church-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-bottom: 28px;
+    }
+
+    .church-card img {
+        height: 220px;
+    }
+
+    .church-card-content {
+        padding: 22px;
+    }
+
+    .mt-carmel-wrapper {
+        width: 100%;
+        margin: 24px auto 32px;
+    }
+
+    .church-intro {
+        padding: 20px;
+        margin-bottom: 26px;
+    }
+
+    .intro-text {
+        min-width: 0;
+    }
+
+    .intro-image,
+    .intro-image img {
+        max-width: 150px;
+    }
+
+    .fifth-sunday {
+        padding: 26px 20px;
+    }
+
+    .contact-layout {
+        gap: 22px;
+    }
+
+    .contact-content {
+        min-width: 0;
+    }
+
+    .contact-email {
+        font-size: 1.1rem;
+        overflow-wrap: anywhere;
+    }
+}
